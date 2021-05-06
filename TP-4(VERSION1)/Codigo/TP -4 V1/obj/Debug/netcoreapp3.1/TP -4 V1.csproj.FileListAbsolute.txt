@@ -1,0 +1,26 @@
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4(V1)\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.csprojAssemblyReference.cache
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4(V1)\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.AssemblyInfoInputs.cache
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4(V1)\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.AssemblyInfo.cs
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4(V1)\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.csproj.CoreCompileInputs.cache
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4(V1)\TP -4 V1\TP -4 V1\bin\Debug\netcoreapp3.1\TP -4 V1.exe
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4(V1)\TP -4 V1\TP -4 V1\bin\Debug\netcoreapp3.1\TP -4 V1.deps.json
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4(V1)\TP -4 V1\TP -4 V1\bin\Debug\netcoreapp3.1\TP -4 V1.runtimeconfig.json
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4(V1)\TP -4 V1\TP -4 V1\bin\Debug\netcoreapp3.1\TP -4 V1.runtimeconfig.dev.json
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4(V1)\TP -4 V1\TP -4 V1\bin\Debug\netcoreapp3.1\TP -4 V1.dll
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4(V1)\TP -4 V1\TP -4 V1\bin\Debug\netcoreapp3.1\TP -4 V1.pdb
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4(V1)\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.dll
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4(V1)\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.pdb
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4(V1)\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.genruntimeconfig.cache
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 1\Codigo\TP -4 V1\TP -4 V1\bin\Debug\netcoreapp3.1\TP -4 V1.exe
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 1\Codigo\TP -4 V1\TP -4 V1\bin\Debug\netcoreapp3.1\TP -4 V1.deps.json
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 1\Codigo\TP -4 V1\TP -4 V1\bin\Debug\netcoreapp3.1\TP -4 V1.runtimeconfig.json
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 1\Codigo\TP -4 V1\TP -4 V1\bin\Debug\netcoreapp3.1\TP -4 V1.runtimeconfig.dev.json
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 1\Codigo\TP -4 V1\TP -4 V1\bin\Debug\netcoreapp3.1\TP -4 V1.dll
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 1\Codigo\TP -4 V1\TP -4 V1\bin\Debug\netcoreapp3.1\TP -4 V1.pdb
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 1\Codigo\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.csprojAssemblyReference.cache
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 1\Codigo\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.AssemblyInfoInputs.cache
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 1\Codigo\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.AssemblyInfo.cs
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 1\Codigo\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.csproj.CoreCompileInputs.cache
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 1\Codigo\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.dll
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 1\Codigo\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.pdb
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 1\Codigo\TP -4 V1\TP -4 V1\obj\Debug\netcoreapp3.1\TP -4 V1.genruntimeconfig.cache
