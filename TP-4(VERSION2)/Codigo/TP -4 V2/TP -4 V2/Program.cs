@@ -105,7 +105,7 @@ namespace TP__4_V2
                 Console.WriteLine("Elija una opcion");
                 Console.WriteLine("1- Cargar un empleado"); //LISTO
                 Console.WriteLine("2- Evaluar autorizacion"); // HAY UN ERROR 
-                Console.WriteLine("3- Baja empleado"); // LISTO
+                Console.WriteLine("3- Baja empleado"); // VER SOLO ME COMPRUEBA EL PRIMERO
                 Console.WriteLine("4- Finalizar programa"); //LISTO
 
                 op = int.Parse(Console.ReadLine());

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\reylu\\Documents\\FACULTAD\\3ER AÑO\\DISEÑO DE SISTEMAS\\TP -4 VERSION 2\\TP -4 V2\\TP -4 V2\\TP -4 V2.csproj": {}
+    "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP-4(VERSION2)\\Codigo\\TP -4 V2\\TP -4 V2\\TP -4 V2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\reylu\\Documents\\FACULTAD\\3ER AÑO\\DISEÑO DE SISTEMAS\\TP -4 VERSION 2\\TP -4 V2\\TP -4 V2\\TP -4 V2.csproj": {
+    "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP-4(VERSION2)\\Codigo\\TP -4 V2\\TP -4 V2\\TP -4 V2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\reylu\\Documents\\FACULTAD\\3ER AÑO\\DISEÑO DE SISTEMAS\\TP -4 VERSION 2\\TP -4 V2\\TP -4 V2\\TP -4 V2.csproj",
+        "projectUniqueName": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP-4(VERSION2)\\Codigo\\TP -4 V2\\TP -4 V2\\TP -4 V2.csproj",
         "projectName": "TP -4 V2",
-        "projectPath": "C:\\Users\\reylu\\Documents\\FACULTAD\\3ER AÑO\\DISEÑO DE SISTEMAS\\TP -4 VERSION 2\\TP -4 V2\\TP -4 V2\\TP -4 V2.csproj",
+        "projectPath": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP-4(VERSION2)\\Codigo\\TP -4 V2\\TP -4 V2\\TP -4 V2.csproj",
         "packagesPath": "C:\\Users\\reylu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\reylu\\Documents\\FACULTAD\\3ER AÑO\\DISEÑO DE SISTEMAS\\TP -4 VERSION 2\\TP -4 V2\\TP -4 V2\\obj\\",
+        "outputPath": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP-4(VERSION2)\\Codigo\\TP -4 V2\\TP -4 V2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\reylu\\AppData\\Roaming\\NuGet\\NuGet.Config",
