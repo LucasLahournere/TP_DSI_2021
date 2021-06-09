@@ -11,7 +11,7 @@ namespace TP__4_V2
         private string domicilio;
         private long telefono;
         private string email;
-        private int fechaAutorizacion;
+        private DateTime fechaAutorizacion;
         private Empresa empresa;
 
         public long Dni { get => dni; set => dni = value; }
@@ -19,7 +19,7 @@ namespace TP__4_V2
         public string Domicilio { get => domicilio; set => domicilio = value; }
         public long Telefono { get => telefono; set => telefono = value; }
         public string Email { get => email; set => email = value; }
-        public int FechaAutorizacion { get => fechaAutorizacion; set => fechaAutorizacion = value; }
+        public DateTime FechaAutorizacion { get => fechaAutorizacion; set => fechaAutorizacion = value; }
         internal Empresa Empresa { get => empresa; set => empresa = value; }
 
         public void MostrarPersona()

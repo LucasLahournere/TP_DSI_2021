@@ -93,6 +93,8 @@ namespace TP__4_V2
             persona3.Empresa = empresa3;
             personas.Add(persona3);
 
+
+            Console.WriteLine("Asigne la fecha hasta que estan autorizados a los empleados: (Formato DD/FF/AÑO HS:MIN:SEG)");
             empresa1.AsignarFecha(persona1);
             empresa2.AsignarFecha(persona2);
             empresa3.AsignarFecha(persona3);
@@ -138,16 +140,19 @@ namespace TP__4_V2
                         {
                             case 1:
                                 persona4.Empresa = empresa1;
+                                Console.WriteLine("Asigne la fecha hasta que esta autorizado al empleado: (Formato DD/FF/AÑO HS:MIN:SEG)");
                                 empresa1.AsignarFecha(persona4);
                                 personas.Add(persona4);
                                 break;
                             case 2:
                                 persona4.Empresa = empresa2;
+                                Console.WriteLine("Asigne la fecha hasta que esta autorizado al empleado: (Formato DD/FF/AÑO HS:MIN:SEG)");
                                 empresa2.AsignarFecha(persona4);
                                 personas.Add(persona4);
                                 break;
                             case 3:
                                 persona4.Empresa = empresa3;
+                                Console.WriteLine("Asigne la fecha hasta que esta autorizado al empleado: (Formato DD/FF/AÑO HS:MIN:SEG)");
                                 empresa3.AsignarFecha(persona4);
                                 personas.Add(persona4);
                                 break;
@@ -161,13 +166,13 @@ namespace TP__4_V2
                         Console.WriteLine("Ingrese el dni del empleado: ");
                         dni1 = long.Parse(Console.ReadLine());
 
+                        DateTime today = DateTime.Today;
 
-                       foreach (Persona per in personas)
+                        foreach (Persona per in personas)
                        {
                             if (dni1 == per.Dni && per.Empresa.ActividadRealizada.Autorizacion == true)
                             {
                                 personaautorizada = per;
-                                
                             }
                             else if(dni1 == per.Dni && per.Empresa.ActividadRealizada.Autorizacion == false)
                             {
@@ -177,13 +182,18 @@ namespace TP__4_V2
   
                        }
 
-
-                        if (dni1 == personaautorizada.Dni)
+                        // VER TEMA DE LAS FECHAS
+                        if (dni1 == personaautorizada.Dni && DateTime.Compare(personaautorizada.FechaAutorizacion, today) > 0)
                         {
                             Console.WriteLine("El empleado esta autorizado");
                             personaautorizada.MostrarPersona();
 
-                        } else if (dni1 == personaNOautorizada.Dni)
+                        }else if (dni1 == personaautorizada.Dni && DateTime.Compare(personaautorizada.FechaAutorizacion, today) < 0)
+                        {
+                            Console.WriteLine("La autorizacion del empleado esta vencida.");
+                            personaautorizada.MostrarPersona();
+                        } 
+                        else if (dni1 == personaNOautorizada.Dni)
                         {
                             Console.WriteLine("El empleado  NO esta autorizado");
 

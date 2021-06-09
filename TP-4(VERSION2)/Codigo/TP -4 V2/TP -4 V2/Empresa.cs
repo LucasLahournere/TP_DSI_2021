@@ -28,9 +28,9 @@ namespace TP__4_V2
 
         public void AsignarFecha(Persona persona)
         {
-            int fechaAut;
+            DateTime fechaAut;
             Console.WriteLine("Ingrese la fecha hasta que esta utorizado el empleado" +persona.Nombre_apellido +  ":  ");
-            fechaAut = int.Parse(Console.ReadLine());
+            fechaAut = DateTime.Parse(Console.ReadLine());
             persona.FechaAutorizacion = fechaAut ;
 
         }
