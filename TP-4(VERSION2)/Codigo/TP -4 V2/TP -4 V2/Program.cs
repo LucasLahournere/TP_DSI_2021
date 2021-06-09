@@ -105,7 +105,7 @@ namespace TP__4_V2
                 Console.WriteLine("Elija una opcion");
                 Console.WriteLine("1- Cargar un empleado"); //LISTO
                 Console.WriteLine("2- Evaluar autorizacion"); // LISTO 
-                Console.WriteLine("3- Baja empleado"); // VER SOLO ME COMPRUEBA EL PRIMERO
+                Console.WriteLine("3- Baja empleado"); // LISTO
                 Console.WriteLine("4- Finalizar programa"); //LISTO
 
                 op = int.Parse(Console.ReadLine());
@@ -196,6 +196,9 @@ namespace TP__4_V2
 
                     case 3:
                         long dnieliminar;
+                        Persona personaeliminar = new Persona();
+
+
                         Console.WriteLine("Que empleado quiere dar de baja? ");
                         Console.WriteLine("Inserte el dni: ");
                         dnieliminar = long.Parse(Console.ReadLine());
@@ -204,14 +207,19 @@ namespace TP__4_V2
                         {
                             if (dnieliminar == pers.Dni)
                             {
-                                personas.Remove(pers);
-                                Console.WriteLine("Baja de empleado correcta");
+                                personaeliminar = pers;
                             }
-                            else
-                            {
-                                Console.WriteLine("No existe ese empleado");
-                            }
-                            break;
+
+                        }
+
+                        if (dnieliminar == personaeliminar.Dni)
+                        {
+                            personas.Remove(personaeliminar);
+                            Console.WriteLine("Baja de empleado correcta");
+                        }
+                        else
+                        {
+                            Console.WriteLine("No existe ese empleado");
                         }
                
                         break;
