@@ -11,3 +11,16 @@ C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 2\T
 C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 2\TP -4 V2\TP -4 V2\obj\Debug\netcoreapp3.1\TP -4 V2.dll
 C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 2\TP -4 V2\TP -4 V2\obj\Debug\netcoreapp3.1\TP -4 V2.pdb
 C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TP -4 VERSION 2\TP -4 V2\TP -4 V2\obj\Debug\netcoreapp3.1\TP -4 V2.genruntimeconfig.cache
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP-4(VERSION2)\Codigo\TP -4 V2\TP -4 V2\bin\Debug\netcoreapp3.1\TP -4 V2.exe
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP-4(VERSION2)\Codigo\TP -4 V2\TP -4 V2\bin\Debug\netcoreapp3.1\TP -4 V2.deps.json
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP-4(VERSION2)\Codigo\TP -4 V2\TP -4 V2\bin\Debug\netcoreapp3.1\TP -4 V2.runtimeconfig.json
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP-4(VERSION2)\Codigo\TP -4 V2\TP -4 V2\bin\Debug\netcoreapp3.1\TP -4 V2.runtimeconfig.dev.json
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP-4(VERSION2)\Codigo\TP -4 V2\TP -4 V2\bin\Debug\netcoreapp3.1\TP -4 V2.dll
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP-4(VERSION2)\Codigo\TP -4 V2\TP -4 V2\bin\Debug\netcoreapp3.1\TP -4 V2.pdb
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP-4(VERSION2)\Codigo\TP -4 V2\TP -4 V2\obj\Debug\netcoreapp3.1\TP -4 V2.csprojAssemblyReference.cache
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP-4(VERSION2)\Codigo\TP -4 V2\TP -4 V2\obj\Debug\netcoreapp3.1\TP -4 V2.AssemblyInfoInputs.cache
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP-4(VERSION2)\Codigo\TP -4 V2\TP -4 V2\obj\Debug\netcoreapp3.1\TP -4 V2.AssemblyInfo.cs
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP-4(VERSION2)\Codigo\TP -4 V2\TP -4 V2\obj\Debug\netcoreapp3.1\TP -4 V2.csproj.CoreCompileInputs.cache
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP-4(VERSION2)\Codigo\TP -4 V2\TP -4 V2\obj\Debug\netcoreapp3.1\TP -4 V2.dll
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP-4(VERSION2)\Codigo\TP -4 V2\TP -4 V2\obj\Debug\netcoreapp3.1\TP -4 V2.pdb
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP-4(VERSION2)\Codigo\TP -4 V2\TP -4 V2\obj\Debug\netcoreapp3.1\TP -4 V2.genruntimeconfig.cache

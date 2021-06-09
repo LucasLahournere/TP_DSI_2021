@@ -104,7 +104,7 @@ namespace TP__4_V2
                 int op;
                 Console.WriteLine("Elija una opcion");
                 Console.WriteLine("1- Cargar un empleado"); //LISTO
-                Console.WriteLine("2- Evaluar autorizacion"); // HAY UN ERROR 
+                Console.WriteLine("2- Evaluar autorizacion"); // LISTO 
                 Console.WriteLine("3- Baja empleado"); // VER SOLO ME COMPRUEBA EL PRIMERO
                 Console.WriteLine("4- Finalizar programa"); //LISTO
 
@@ -155,51 +155,41 @@ namespace TP__4_V2
                         break;
                     case 2:
                         long dni1;
+                        Persona personaautorizada = new Persona();
+                        Persona personaNOautorizada =  new Persona();
+
                         Console.WriteLine("Ingrese el dni del empleado: ");
                         dni1 = long.Parse(Console.ReadLine());
 
+
                        foreach (Persona per in personas)
                        {
-                            if (dni1 == per.Dni)
+                            if (dni1 == per.Dni && per.Empresa.ActividadRealizada.Autorizacion == true)
                             {
-                                foreach (Empresa emp in empresas)
-                                {
-                                    if (emp.ActividadRealizada.Autorizacion == true)
-                                    {
-                                        personasaut.Add(per) ;
-                                        break;
-                                            
-                                    }
-                                    else if (emp.ActividadRealizada.Autorizacion == false)
-                                    {
-                                        personasnoaut.Add(per);
-                                        break;
-                                    }
-                                }
-                                break;
+                                personaautorizada = per;
+                                
                             }
-                            else
+                            else if(dni1 == per.Dni && per.Empresa.ActividadRealizada.Autorizacion == false)
                             {
-                                Console.WriteLine("La persona no existe");
-                            }
-                            break;
-                            
+                                personaNOautorizada = per;
+
+                            } 
+  
                        }
 
-                        foreach (Persona pers in personasaut)
+
+                        if (dni1 == personaautorizada.Dni)
                         {
-                            if (dni1 == pers.Dni)
-                            { 
-                                Console.WriteLine("El empleado esta autorizado");
-                                pers.MostrarPersona();
-                            }
-                        }
-                        foreach (Persona pers1 in personasnoaut)
+                            Console.WriteLine("El empleado esta autorizado");
+                            personaautorizada.MostrarPersona();
+
+                        } else if (dni1 == personaNOautorizada.Dni)
                         {
-                            if (dni1 == pers1.Dni)
-                            {
-                                Console.WriteLine("El empleado  NO esta autorizado");
-                            }
+                            Console.WriteLine("El empleado  NO esta autorizado");
+
+                        } else if (dni1 != personaautorizada.Dni && dni1 != personaNOautorizada.Dni)
+                        {
+                            Console.WriteLine("La persona no existe");
                         }
 
                         break;
@@ -225,6 +215,7 @@ namespace TP__4_V2
                         }
                
                         break;
+
                     case 4:
                         Console.WriteLine("PROGRAMA FINALIZADO");
                         ban = 0;
