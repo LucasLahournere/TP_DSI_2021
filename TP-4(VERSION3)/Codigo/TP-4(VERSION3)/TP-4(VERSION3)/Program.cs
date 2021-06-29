@@ -9,7 +9,6 @@ namespace TP_4_VERSION3_
         {
             List<Persona> personas = new List<Persona>();
             List<Persona> personasaut = new List<Persona>();
-            List<Persona> personasnoaut = new List<Persona>();
             List<Empresa> empresas = new List<Empresa>();
 
 
@@ -108,7 +107,8 @@ namespace TP_4_VERSION3_
                 Console.WriteLine("1- Cargar un empleado"); //LISTO
                 Console.WriteLine("2- Evaluar autorizacion"); // LISTO 
                 Console.WriteLine("3- Baja empleado"); // LISTO
-                Console.WriteLine("4- Finalizar programa"); //LISTO
+                Console.WriteLine("4- Registrar salida");
+                Console.WriteLine("5- Finalizar programa"); //LISTO
 
                 op = int.Parse(Console.ReadLine());
 
@@ -179,6 +179,7 @@ namespace TP_4_VERSION3_
                                 Console.WriteLine("¿CUAL ES EL DESTINO?");
                                 per.Destino = Console.ReadLine();
 
+
                                 Console.WriteLine("¿Ingresa con vehiculo? 1 - si 2- no");
                                 if (int.Parse(Console.ReadLine()) == 1)
                                 {
@@ -188,6 +189,7 @@ namespace TP_4_VERSION3_
                                 {
                                     per.Patente = null;
                                 }
+
                                 personaautorizada = per;
 
                             }
@@ -203,6 +205,7 @@ namespace TP_4_VERSION3_
                         {
                             Console.WriteLine("El empleado esta autorizado");
                             personaautorizada.MostrarPersona();
+                            personasaut.Add(personaautorizada);
 
                         }
                         else if (dni1 == personaautorizada.Dni && DateTime.Compare(personaautorizada.FechaAutorizacion, today) > 0 && personaautorizada.Temperatura > 37)
@@ -257,6 +260,39 @@ namespace TP_4_VERSION3_
                         break;
 
                     case 4:
+                        long dnisalida;
+
+                        Console.WriteLine("Ingrese el dni de la persona a registrar la salida: ");
+                        dnisalida = long.Parse(Console.ReadLine());
+
+                        Persona persalida = new Persona();
+
+
+                        foreach (Persona p in personasaut)
+                        {
+                            if (dnisalida == p.Dni)
+                            {
+                                persalida = p;
+                            }
+                        }
+
+                        if (dnisalida == persalida.Dni)
+                        {
+                            //VER
+                            DateTime horasalida = new DateTime();
+
+                            Console.WriteLine("Ingrese la hora de salida: ");
+                            horasalida = DateTime.Parse(Console.ReadLine());
+                            horasalida.ToString("hh:mm:ss");
+
+                            persalida.Hora_salida = horasalida;
+
+                            persalida.MostrarPersona();
+                        }
+
+
+                        break;
+                    case 5:
                         Console.WriteLine("PROGRAMA FINALIZADO");
                         ban = 0;
                         break;

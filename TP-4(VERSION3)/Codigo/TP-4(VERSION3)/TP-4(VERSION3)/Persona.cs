@@ -16,7 +16,7 @@ namespace TP_4_VERSION3_
         private float temperatura;
         private String patente;
         private string destino;
-
+        private DateTime? hora_salida;
         private Empresa empresa;
         
 
@@ -30,6 +30,7 @@ namespace TP_4_VERSION3_
         public float Temperatura { get => temperatura; set => temperatura = value; }
         public string Patente { get => patente; set => patente = value; }
         public string Destino { get => destino; set => destino = value; }
+        public DateTime? Hora_salida { get => hora_salida; set => hora_salida = value; }
         internal Empresa Empresa { get => empresa; set => empresa = value; }
 
         public void MostrarPersona()
@@ -45,6 +46,7 @@ namespace TP_4_VERSION3_
             Console.WriteLine("La temperatura es: "+temperatura);
             Console.WriteLine("El destino es: "+ destino);
             Console.WriteLine("La patente es: "+ patente);
+            Console.WriteLine("La fecha de salida es: "+ hora_salida);
 
             Console.WriteLine("----------------------------------------------------------------");
 
