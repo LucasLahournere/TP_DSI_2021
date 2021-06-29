@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TP__4_V2
+namespace TP_4_VERSION3_
 {
     class Empresa
     {
@@ -12,7 +12,7 @@ namespace TP__4_V2
         private string localidad;
         private string email;
         private long telefono;
-         //VER 
+        //VER 
         private List<Persona> empleados;
         private Actividad actividadRealizada;
 
@@ -29,9 +29,9 @@ namespace TP__4_V2
         public void AsignarFecha(Persona persona)
         {
             DateTime fechaAut;
-            Console.WriteLine("Ingrese la fecha hasta que esta utorizado el empleado" +persona.Nombre_apellido +  ":  ");
+            Console.WriteLine("Ingrese la fecha hasta que esta utorizado el empleado" + persona.Nombre_apellido + ":  ");
             fechaAut = DateTime.Parse(Console.ReadLine());
-            persona.FechaAutorizacion = fechaAut ;
+            persona.FechaAutorizacion = fechaAut;
         }
     }
 }

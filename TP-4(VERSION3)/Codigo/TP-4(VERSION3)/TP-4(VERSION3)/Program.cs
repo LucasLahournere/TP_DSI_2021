@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TP__4_V2
+namespace TP_4_VERSION3_
 {
     class Program
     {
@@ -17,19 +17,19 @@ namespace TP__4_V2
 
             Actividad actividad1 = new Actividad();
             actividad1.Autorizacion = true;
-            actividad1.Nombre= "Salud";
+            actividad1.Nombre = "Salud";
 
             Actividad actividad2 = new Actividad();
             actividad2.Autorizacion = true;
-            actividad2.Nombre= "Transporte";
+            actividad2.Nombre = "Transporte";
 
             Actividad actividad3 = new Actividad();
             actividad3.Autorizacion = true;
-            actividad3.Nombre= "Seguridad";
+            actividad3.Nombre = "Seguridad";
 
             Actividad actividad4 = new Actividad();
             actividad4.Autorizacion = false;
-            actividad4.Nombre= "Venta Ropa";
+            actividad4.Nombre = "Venta Ropa";
 
             // INSTANCIO EMPRESAS
 
@@ -42,7 +42,7 @@ namespace TP__4_V2
             empresa1.Telefono = 3564599897;
             empresa1.ActividadRealizada = actividad1;
             empresas.Add(empresa1);
-            
+
 
             Empresa empresa2 = new Empresa();
             empresa2.RazonSocial = "SA";
@@ -99,7 +99,7 @@ namespace TP__4_V2
             empresa2.AsignarFecha(persona2);
             empresa3.AsignarFecha(persona3);
 
- 
+
             int ban = 1;
             while (ban == 1)
             {
@@ -161,7 +161,7 @@ namespace TP__4_V2
                     case 2:
                         long dni1;
                         Persona personaautorizada = new Persona();
-                        Persona personaNOautorizada =  new Persona();
+                        Persona personaNOautorizada = new Persona();
 
                         Console.WriteLine("Ingrese el dni del empleado: ");
                         dni1 = long.Parse(Console.ReadLine());
@@ -172,31 +172,54 @@ namespace TP__4_V2
                         {
                             if (dni1 == per.Dni && per.Empresa.ActividadRealizada.Autorizacion == true)
                             {
+                                Console.WriteLine("Ingrese la temperatura de la persona ");
+                                per.Temperatura = float.Parse(Console.ReadLine());
+                                
+                                per.FechaIngreso = today;
+                                Console.WriteLine("¿CUAL ES EL DESTINO?");
+                                per.Destino = Console.ReadLine();
+
+                                Console.WriteLine("¿Ingresa con vehiculo? 1 - si 2- no");
+                                if (int.Parse(Console.ReadLine()) == 1)
+                                {
+                                    Console.WriteLine("Ingrese la patente: ");
+                                    per.Patente = Console.ReadLine();
+                                } else
+                                {
+                                    per.Patente = null;
+                                }
                                 personaautorizada = per;
+
                             }
-                            else if(dni1 == per.Dni && per.Empresa.ActividadRealizada.Autorizacion == false)
+                            else if (dni1 == per.Dni && per.Empresa.ActividadRealizada.Autorizacion == false)
                             {
                                 personaNOautorizada = per;
-                            } 
-  
-                       }
+                            }
 
-                        
-                        if (dni1 == personaautorizada.Dni && DateTime.Compare(personaautorizada.FechaAutorizacion, today) > 0)
+                        }
+
+
+                        if (dni1 == personaautorizada.Dni && DateTime.Compare(personaautorizada.FechaAutorizacion, today) > 0 && personaautorizada.Temperatura <= 37)
                         {
                             Console.WriteLine("El empleado esta autorizado");
                             personaautorizada.MostrarPersona();
 
-                        }else if (dni1 == personaautorizada.Dni && DateTime.Compare(personaautorizada.FechaAutorizacion, today) < 0)
+                        }
+                        else if (dni1 == personaautorizada.Dni && DateTime.Compare(personaautorizada.FechaAutorizacion, today) > 0 && personaautorizada.Temperatura > 37)
+                        {
+                            Console.WriteLine("La persona esta autorizada pero tiene alta temperatura. No puede ingresar");
+                        }
+                        else if (dni1 == personaautorizada.Dni && DateTime.Compare(personaautorizada.FechaAutorizacion, today) < 0)
                         {
                             Console.WriteLine("La autorizacion del empleado esta vencida.");
-                            personaautorizada.MostrarPersona();
-                        } 
+
+                        }
                         else if (dni1 == personaNOautorizada.Dni)
                         {
                             Console.WriteLine("El empleado  NO esta autorizado");
 
-                        } else if (dni1 != personaautorizada.Dni && dni1 != personaNOautorizada.Dni)
+                        }
+                        else if (dni1 != personaautorizada.Dni && dni1 != personaNOautorizada.Dni)
                         {
                             Console.WriteLine("La persona no existe");
                         }
@@ -230,7 +253,7 @@ namespace TP__4_V2
                         {
                             Console.WriteLine("No existe ese empleado");
                         }
-               
+
                         break;
 
                     case 4:
