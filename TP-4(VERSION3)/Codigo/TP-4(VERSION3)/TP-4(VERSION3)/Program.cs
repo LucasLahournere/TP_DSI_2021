@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using ZXing;  //PARA QR
+using System.Drawing; //PARA QR
+
 
 namespace TP_4_VERSION3_
 {
@@ -95,8 +98,37 @@ namespace TP_4_VERSION3_
 
             Console.WriteLine("Asigne la fecha hasta que estan autorizados a los empleados: (Formato DD/FF/AÑO HS:MIN:SEG)");
             empresa1.AsignarFecha(persona1);
+
+            Console.WriteLine("El QR:");
+
+            var codigopersona1 = new BarcodeWriter();
+            codigopersona1.Format = BarcodeFormat.QR_CODE;
+
+            codigopersona1.Write("persona1")
+                          .Save(@"C:\Users\reylu\Desktop\qr.bmp");
+
+            Console.WriteLine("qr generado");
+            
+
             empresa2.AsignarFecha(persona2);
+
+            var codigopersona2 = new BarcodeWriter();
+            codigopersona2.Format = BarcodeFormat.QR_CODE;
+
+            codigopersona2.Write("persona2")
+                          .Save(@"C:\Users\reylu\Desktop\qr.bmp");
+
+            Console.WriteLine("qr generado");
+
             empresa3.AsignarFecha(persona3);
+
+            var codigopersona3 = new BarcodeWriter();
+            codigopersona3.Format = BarcodeFormat.QR_CODE;
+
+            codigopersona3.Write("persona1")
+                          .Save(@"C:\Users\reylu\Desktop\qr.bmp");
+
+            Console.WriteLine("qr generado");
 
 
             int ban = 1;

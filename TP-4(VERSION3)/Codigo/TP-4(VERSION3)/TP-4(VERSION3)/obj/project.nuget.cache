@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "lWU5Tbo3/gCVFK3VsjCz3aAcjHKGFcGV7Byi1jwnAyGn7YgFp1F8s/IXdxcetoG0u4RGcRPOsx7W5bASx1OX2A==",
+  "dgSpecHash": "CKIsUg9C4IRzePuYfNC9d8fM9clHUVBF9nVOAMKPFlpIjNh9Boyvxly0U2dpl3V9WPGfxxpRog3BpxwA2Q1/qQ==",
   "success": true,
   "projectFilePath": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP-4(VERSION3)\\Codigo\\TP-4(VERSION3)\\TP-4(VERSION3)\\TP-4(VERSION3).csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\reylu\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\reylu\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "C:\\Users\\reylu\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512",
+    "C:\\Users\\reylu\\.nuget\\packages\\zxing.net\\0.16.6\\zxing.net.0.16.6.nupkg.sha512"
+  ],
   "logs": []
 }
