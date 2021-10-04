@@ -1,0 +1,15 @@
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Entrega1 Matear.exe
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Entrega1 Matear.deps.json
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Entrega1 Matear.runtimeconfig.json
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Entrega1 Matear.runtimeconfig.dev.json
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Entrega1 Matear.dll
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Entrega1 Matear.pdb
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.csprojAssemblyReference.cache
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.AssemblyInfoInputs.cache
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.AssemblyInfo.cs
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.csproj.CoreCompileInputs.cache
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.dll
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.pdb
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.genruntimeconfig.cache
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.csproj.CopyComplete
