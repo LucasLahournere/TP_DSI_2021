@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "75jw65hO6axKDGF54l75RUJjb1dhMoN6QW0+iiZEv5u3ILXpiHGVOxxpyiEr4BUNiTPSJ646ijg0THJh0SU+xA==",
+  "dgSpecHash": "PJ+w4UtnFXDtQUBBXcTDB9j/Dqjowfp+P57mrBQTHkjlnjI5TfrSQZDv8veahab/KXxh9M0PGMKs/b5nEPhS/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\reylu\\Documents\\FACULTAD\\3ER AÑO\\DISEÑO DE SISTEMAS\\TPS\\TP INTEGRADOR\\Entrega1 Matear\\Entrega1 Matear\\Entrega1 Matear.csproj",
+  "projectFilePath": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\Entrega1 Matear\\Entrega1 Matear.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\reylu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

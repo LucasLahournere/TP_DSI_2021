@@ -12,10 +12,13 @@ namespace Entrega1_Matear
     {
         static void Main(string[] args)
         {
+
+            //listas
             List<Productos> ListaProductos = new List<Productos>();
             List<ItemProducto> ListaItemProductos = new List<ItemProducto>();
             List<Descuento> Descuentos = new List<Descuento>();
 
+            //agrego carrito
             CarritoDeCompras carrito1 = new CarritoDeCompras();
             carrito1.NumeroPedido = 1;
             carrito1.FechaCompra = DateTime.Now;

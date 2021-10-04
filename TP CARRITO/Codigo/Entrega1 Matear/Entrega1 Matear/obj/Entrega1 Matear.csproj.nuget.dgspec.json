@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\reylu\\Documents\\FACULTAD\\3ER AÑO\\DISEÑO DE SISTEMAS\\TPS\\TP INTEGRADOR\\Entrega1 Matear\\Entrega1 Matear\\Entrega1 Matear.csproj": {}
+    "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\Entrega1 Matear\\Entrega1 Matear.csproj": {}
   },
   "projects": {
-    "C:\\Users\\reylu\\Documents\\FACULTAD\\3ER AÑO\\DISEÑO DE SISTEMAS\\TPS\\TP INTEGRADOR\\Entrega1 Matear\\Entrega1 Matear\\Entrega1 Matear.csproj": {
+    "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\Entrega1 Matear\\Entrega1 Matear.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\reylu\\Documents\\FACULTAD\\3ER AÑO\\DISEÑO DE SISTEMAS\\TPS\\TP INTEGRADOR\\Entrega1 Matear\\Entrega1 Matear\\Entrega1 Matear.csproj",
+        "projectUniqueName": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\Entrega1 Matear\\Entrega1 Matear.csproj",
         "projectName": "Entrega1 Matear",
-        "projectPath": "C:\\Users\\reylu\\Documents\\FACULTAD\\3ER AÑO\\DISEÑO DE SISTEMAS\\TPS\\TP INTEGRADOR\\Entrega1 Matear\\Entrega1 Matear\\Entrega1 Matear.csproj",
+        "projectPath": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\Entrega1 Matear\\Entrega1 Matear.csproj",
         "packagesPath": "C:\\Users\\reylu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\reylu\\Documents\\FACULTAD\\3ER AÑO\\DISEÑO DE SISTEMAS\\TPS\\TP INTEGRADOR\\Entrega1 Matear\\Entrega1 Matear\\obj\\",
+        "outputPath": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\Entrega1 Matear\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\reylu\\AppData\\Roaming\\NuGet\\NuGet.Config",
