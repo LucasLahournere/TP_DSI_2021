@@ -92,6 +92,7 @@ namespace Entrega1_Matear
                         {
                             if (productoelegido == p.Producto.Id && cantidad <= p.Producto.StockDisponible)
                             {
+
                                 p.CantidadProductosSeleccionados = cantidad;
                                 carrito1.agregarProductos(p);
                                 carrito1.MontoTotal = (p.Producto.PrecioUnitario * cantidad) + carrito1.MontoTotal;
@@ -147,6 +148,12 @@ namespace Entrega1_Matear
                             if (codigosDTO == desc.CodigoDto)
                             {
                                 carrito1.MontoTotal = carrito1.MontoTotal - (carrito1.MontoTotal * desc.PorcentajeDto) ;
+                                carrito1.mostrarCarrito();
+                                Console.WriteLine("DESCUENTO APLICADO CORRECTAMENTE!");
+
+                            }else if (codigosDTO != desc.CodigoDto)
+                            {
+                                Console.WriteLine("NO SE ENCONTRO EL CODIGO, INTENTE NUEVAMENTE");
                             }
                         }
 

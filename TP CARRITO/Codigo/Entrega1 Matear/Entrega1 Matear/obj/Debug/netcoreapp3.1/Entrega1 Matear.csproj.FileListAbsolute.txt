@@ -13,3 +13,18 @@ C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR
 C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.genruntimeconfig.cache
 C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\reylu\Documents\FACULTAD\3ER AÑO\DISEÑO DE SISTEMAS\TPS\TP INTEGRADOR\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.csproj.CopyComplete
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Entrega1 Matear.exe
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Entrega1 Matear.deps.json
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Entrega1 Matear.runtimeconfig.json
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Entrega1 Matear.runtimeconfig.dev.json
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Entrega1 Matear.dll
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Entrega1 Matear.pdb
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.csprojAssemblyReference.cache
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.AssemblyInfoInputs.cache
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.AssemblyInfo.cs
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.csproj.CoreCompileInputs.cache
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.csproj.CopyComplete
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.dll
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.pdb
+E:\REPOSITORIOS\REPO TP DSI\TP_DSI_2021\TP CARRITO\Codigo\Entrega1 Matear\Entrega1 Matear\obj\Debug\netcoreapp3.1\Entrega1 Matear.genruntimeconfig.cache

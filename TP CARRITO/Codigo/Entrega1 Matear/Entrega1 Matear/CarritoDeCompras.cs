@@ -29,10 +29,10 @@ namespace Entrega1_Matear
             foreach (ItemProducto prod in productoSeleccionados)
             {
                 Console.WriteLine(prod.Producto.Descripcion);
+                Console.WriteLine("ID: "+ prod.Producto.Id);
                 Console.WriteLine("Cantidad: " + prod.CantidadProductosSeleccionados);
             }
 
-            // Console.WriteLine("El descuento es de: "+ codigoDescuento);
             Console.WriteLine("TOTAL: " + montoTotal);
 
             Console.WriteLine("-----------------------------------------------------------------------------");
@@ -42,7 +42,17 @@ namespace Entrega1_Matear
 
         public void agregarProductos(ItemProducto producto)
         {
-            ProductoSeleccionados.Add(producto);
+            foreach (ItemProducto p in productoSeleccionados)
+            {
+                if (p.Producto.Id == producto.Producto.Id)
+                {
+                    producto.Producto.CantidadDeProductos = p.Producto.CantidadDeProductos + producto.Producto.CantidadDeProductos;
+                }
+
+            }
+
+            productoSeleccionados.Add(producto);
+
         }
 
         public void eliminarProductos(ItemProducto producto)
