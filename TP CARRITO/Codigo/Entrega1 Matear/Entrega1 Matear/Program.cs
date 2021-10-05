@@ -109,26 +109,29 @@ namespace Entrega1_Matear
                         Console.WriteLine("¿Cuanta cantidad desea eliminar?");
                         int cantidadEliminar = int.Parse(Console.ReadLine());
 
+
                         foreach (Productos p in ListaProductos)
                         {
                             if (p.Id == prodeliminar)
                             {
-                                carrito1.eliminarProductos(p,cantidadEliminar);
-                                carrito1.MontoTotal = carrito1.MontoTotal - (p.PrecioUnitario * cantidadEliminar);
-                                p.StockDisponible = p.StockDisponible + cantidadEliminar;
+                                int bandera = carrito1.eliminarProductos(p, cantidadEliminar);
+                                
+                                if (bandera == 1)
+                                { 
+                                    carrito1.MontoTotal = carrito1.MontoTotal - (p.PrecioUnitario * cantidadEliminar);
+                                    p.StockDisponible = p.StockDisponible + cantidadEliminar;
 
-                                Console.WriteLine("PRODUCTOS ELIMINADOS CORRECTAMENTE");
+                                    Console.WriteLine("PRODUCTOS ELIMINADOS CORRECTAMENTE");
+                                }
+                                else
+                                if (bandera == 0)
+                                {
+                                    Console.WriteLine("No fue posible eliminar el prdocuto, vuelva a intentarlo");
+                                }
 
                             }
-                            else if (p.Id != prodeliminar)
-                            {
-                                Console.WriteLine("No se encontro ese producto");
-                            }
-
 
                         }
-
-
                         break;
 
                     case 3:

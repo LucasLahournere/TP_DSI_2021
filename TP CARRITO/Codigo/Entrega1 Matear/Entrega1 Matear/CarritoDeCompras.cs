@@ -26,19 +26,18 @@ namespace Entrega1_Matear
             Console.WriteLine("La fecha de compra es: "+fechaCompra);
             Console.WriteLine("Los productos son: ");
 
-            foreach (ItemProducto prod in productoSeleccionados)
+            foreach (ItemProducto prod in ProductoSeleccionados)
             {
                 Console.WriteLine(prod.Producto.Descripcion);
                 Console.WriteLine("ID: "+ prod.Producto.Id);
                 Console.WriteLine("Cantidad: " + prod.CantidadProductosSeleccionados);
             }
 
-            Console.WriteLine("TOTAL: " + montoTotal);
+            Console.WriteLine("TOTAL: $" + montoTotal);
 
             Console.WriteLine("-----------------------------------------------------------------------------");
 
         }
-
 
         public void agregarProductos(Productos producto, int cantidad)
         {
@@ -51,20 +50,26 @@ namespace Entrega1_Matear
 
         }
 
-        public void eliminarProductos(Productos producto,int cantidad)
+        public int eliminarProductos(Productos producto,int cantidad)
         {
 
             ItemProducto product = new ItemProducto();
             product.Producto = producto;
-            product.CantidadProductosSeleccionados = product.CantidadProductosSeleccionados - cantidad;
+            product.CantidadProductosSeleccionados = cantidad ;
 
+            int contador = -1;
+            int indice = 0;
+            int ban1 = 0;
 
-
-            foreach (ItemProducto p in productoSeleccionados)
+            foreach (ItemProducto p in ProductoSeleccionados)
             {
+                contador++;
                 if (p.Producto.Id == product.Producto.Id && p.CantidadProductosSeleccionados >= product.CantidadProductosSeleccionados)
                 {
-                    productoSeleccionados.Remove(product);
+
+                    indice = contador;
+                    ban1 = 1;
+
                 }
                 else if (p.Producto.Id == product.Producto.Id && p.CantidadProductosSeleccionados < product.CantidadProductosSeleccionados)
                 {
@@ -72,7 +77,12 @@ namespace Entrega1_Matear
                 }
             }
 
+            if (ban1 == 1)
+            {
+                ProductoSeleccionados.RemoveAt(indice);
+            }
 
+            return ban1;
         }
 
     }
