@@ -117,7 +117,7 @@ namespace Entrega1_Matear
                                 int bandera = carrito1.eliminarProductos(p, cantidadEliminar);
                                 
                                 if (bandera == 1)
-                                { 
+                                {
                                     carrito1.MontoTotal = carrito1.MontoTotal - (p.PrecioUnitario * cantidadEliminar);
                                     p.StockDisponible = p.StockDisponible + cantidadEliminar;
 

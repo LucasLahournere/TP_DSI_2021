@@ -44,8 +44,7 @@ namespace Entrega1_Matear
 
             ItemProducto prod = new ItemProducto();
             prod.Producto = producto;
-            prod.CantidadProductosSeleccionados = prod.CantidadProductosSeleccionados + cantidad;
-
+            prod.CantidadProductosSeleccionados = cantidad;
             productoSeleccionados.Add(prod);
 
         }
