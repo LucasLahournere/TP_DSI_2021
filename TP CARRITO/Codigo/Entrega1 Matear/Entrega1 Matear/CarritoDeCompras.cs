@@ -66,7 +66,6 @@ namespace Entrega1_Matear
                 contador++;
                 if (p.Producto.Id == product.Producto.Id && p.CantidadProductosSeleccionados >= product.CantidadProductosSeleccionados)
                 {
-
                     indice = contador;
                     ban1 = 1;
 
