@@ -52,10 +52,16 @@ namespace Entrega1_Matear
 
         public int eliminarProductos(Productos producto,int cantidad)
         {
-
             ItemProducto product = new ItemProducto();
             product.Producto = producto;
-            product.CantidadProductosSeleccionados = cantidad ;
+
+            foreach (ItemProducto prod in ProductoSeleccionados)
+            {
+                if (prod.Producto.Id == product.Producto.Id)
+                {
+                    product.CantidadProductosSeleccionados = prod.CantidadProductosSeleccionados;
+                }
+            }
 
             int contador = -1;
             int indice = 0;
@@ -66,6 +72,7 @@ namespace Entrega1_Matear
                 contador++;
                 if (p.Producto.Id == product.Producto.Id && p.CantidadProductosSeleccionados >= product.CantidadProductosSeleccionados)
                 {
+                    product.CantidadProductosSeleccionados = product.CantidadProductosSeleccionados - cantidad;
                     indice = contador;
                     ban1 = 1;
 
