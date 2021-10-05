@@ -40,27 +40,40 @@ namespace Entrega1_Matear
         }
 
 
-        public void agregarProductos(ItemProducto producto)
+        public void agregarProductos(Productos producto, int cantidad)
         {
+
+            ItemProducto prod = new ItemProducto();
+            prod.Producto = producto;
+            prod.CantidadProductosSeleccionados = prod.CantidadProductosSeleccionados + cantidad;
+
+            productoSeleccionados.Add(prod);
+
+        }
+
+        public void eliminarProductos(Productos producto,int cantidad)
+        {
+
+            ItemProducto product = new ItemProducto();
+            product.Producto = producto;
+            product.CantidadProductosSeleccionados = product.CantidadProductosSeleccionados - cantidad;
+
+
+
             foreach (ItemProducto p in productoSeleccionados)
             {
-                if (p.Producto.Id == producto.Producto.Id)
+                if (p.Producto.Id == product.Producto.Id && p.CantidadProductosSeleccionados >= product.CantidadProductosSeleccionados)
                 {
-                    producto.Producto.CantidadDeProductos = p.Producto.CantidadDeProductos + producto.Producto.CantidadDeProductos;
+                    productoSeleccionados.Remove(product);
                 }
-
+                else if (p.Producto.Id == product.Producto.Id && p.CantidadProductosSeleccionados < product.CantidadProductosSeleccionados)
+                {
+                    Console.WriteLine("Solo selecciono " + p.CantidadProductosSeleccionados + " cantidad del producto, si quiere eliminar vuelva a intentarlo");
+                }
             }
 
-            productoSeleccionados.Add(producto);
 
         }
-
-        public void eliminarProductos(ItemProducto producto)
-        {
-            ProductoSeleccionados.Remove(producto);
-        }
-
-
 
     }
 }

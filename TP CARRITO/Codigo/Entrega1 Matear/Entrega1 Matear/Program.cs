@@ -45,14 +45,6 @@ namespace Entrega1_Matear
             Descuentos.Add(dto1);
 
 
-            ItemProducto producto1 = new ItemProducto();
-            producto1.Producto = prod1;
-            ListaItemProductos.Add(producto1);
-
-            ItemProducto producto2 = new ItemProducto();
-            producto2.Producto = prod2;
-            ListaItemProductos.Add(producto2);
-
             Console.WriteLine("CARRITO DE COMPRAS");
 
             int ban = 0;
@@ -88,24 +80,21 @@ namespace Entrega1_Matear
                         int cantidad = int.Parse(Console.ReadLine());
 
 
-                        foreach (ItemProducto p in ListaItemProductos)
+                        foreach (Productos p in ListaProductos)
                         {
-                            if (productoelegido == p.Producto.Id && cantidad <= p.Producto.StockDisponible)
+                            if (productoelegido == p.Id && cantidad <= p.StockDisponible)
                             {
-
-                                p.CantidadProductosSeleccionados = cantidad;
-                                carrito1.agregarProductos(p);
-                                carrito1.MontoTotal = (p.Producto.PrecioUnitario * cantidad) + carrito1.MontoTotal;
-                                p.Producto.StockDisponible = p.Producto.StockDisponible - cantidad;
+                                carrito1.agregarProductos(p,cantidad);
+                                carrito1.MontoTotal = (p.PrecioUnitario * cantidad) + carrito1.MontoTotal;
+                                p.StockDisponible = p.StockDisponible - cantidad;
 
                                 Console.WriteLine("PRODUCTOS AGREGADOS CORRECTAMENTE");
                             }
-                            else 
-                            if (productoelegido == p.Producto.Id && cantidad > p.Producto.StockDisponible)
+                            else
+                            if(productoelegido == p.Id && cantidad > p.StockDisponible)
                             {
-                                
                                 Console.WriteLine("No hay stock suficiente. Intente nuevamente");
-                            } 
+                            }
 
                         }
 
@@ -120,22 +109,25 @@ namespace Entrega1_Matear
                         Console.WriteLine("¿Cuanta cantidad desea eliminar?");
                         int cantidadEliminar = int.Parse(Console.ReadLine());
 
-                        foreach (ItemProducto p in ListaItemProductos)
+                        foreach (Productos p in ListaProductos)
                         {
-                            if (prodeliminar == p.Producto.Id && cantidadEliminar <= p.CantidadProductosSeleccionados)
+                            if (p.Id == prodeliminar)
                             {
-                                carrito1.eliminarProductos(p);
-                                carrito1.MontoTotal = carrito1.MontoTotal - (p.Producto.PrecioUnitario * cantidadEliminar);
-                                p.Producto.StockDisponible = p.Producto.StockDisponible + cantidadEliminar;
+                                carrito1.eliminarProductos(p,cantidadEliminar);
+                                carrito1.MontoTotal = carrito1.MontoTotal - (p.PrecioUnitario * cantidadEliminar);
+                                p.StockDisponible = p.StockDisponible + cantidadEliminar;
 
                                 Console.WriteLine("PRODUCTOS ELIMINADOS CORRECTAMENTE");
+
                             }
-                            if (prodeliminar == p.Producto.Id && cantidadEliminar > p.CantidadProductosSeleccionados)
+                            else if (p.Id != prodeliminar)
                             {
-                                Console.WriteLine("Solo selecciono " + p.CantidadProductosSeleccionados + " cantidad del producto, si quiere eliminar vuelva a intentarlo");
+                                Console.WriteLine("No se encontro ese producto");
                             }
 
+
                         }
+
 
                         break;
 
