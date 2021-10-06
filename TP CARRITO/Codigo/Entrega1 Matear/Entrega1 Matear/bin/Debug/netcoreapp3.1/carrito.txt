@@ -1,1 +1,1 @@
-{"MontoTotal":802.5,"FechaCompra":"5/10/2021 00:11:21"}
+{"MontoTotal":477.75,"FechaCompra":"6/10/2021 12:54:18"}
