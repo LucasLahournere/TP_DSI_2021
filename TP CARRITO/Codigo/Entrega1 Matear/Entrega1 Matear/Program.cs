@@ -78,8 +78,8 @@ namespace Entrega1_Matear
 
                         Console.WriteLine("¿Cuanta cantidad desea agregar?");
                         int cantidad = int.Parse(Console.ReadLine());
-
-
+                        
+                        
                         foreach (Productos p in ListaProductos)
                         {
                             if (productoelegido == p.Id && cantidad <= p.StockDisponible)
@@ -109,29 +109,33 @@ namespace Entrega1_Matear
                         Console.WriteLine("¿Cuanta cantidad desea eliminar?");
                         int cantidadEliminar = int.Parse(Console.ReadLine());
 
+                        bool ban1 = false;
+                        int indice = 0; //indice que voy a eliminar de la lista
+                        int contador = -1; // cuento las posiciones de la lista
 
-                        foreach (Productos p in ListaProductos)
+                        foreach (ItemProducto prod in carrito1.ProductoSeleccionados)
                         {
-                            if (p.Id == prodeliminar)
+                            contador++;
+                            if (prod.Producto.Id == prodeliminar)
                             {
-                                int bandera = carrito1.eliminarProductos(p, cantidadEliminar);
-                                
-                                if (bandera == 1)
-                                {
-                                    carrito1.MontoTotal = carrito1.MontoTotal - (p.PrecioUnitario * cantidadEliminar);
-                                    p.StockDisponible = p.StockDisponible + cantidadEliminar;
+                                ban1 = carrito1.eliminarProductos(prod, cantidadEliminar);
+                                indice = contador;
 
-                                    Console.WriteLine("PRODUCTOS ELIMINADOS CORRECTAMENTE");
-                                }
-                                else
-                                if (bandera == 0)
-                                {
-                                    Console.WriteLine("No fue posible eliminar el prdocuto, vuelva a intentarlo");
-                                }
+                                carrito1.MontoTotal = carrito1.MontoTotal - (prod.Producto.PrecioUnitario * cantidadEliminar);
+                                prod.Producto.StockDisponible = prod.Producto.StockDisponible + cantidadEliminar;
 
                             }
 
                         }
+                        if (ban1 == true)
+                        {
+                            carrito1.ProductoSeleccionados.RemoveAt(indice);
+                        }
+                        else
+                        {
+                            Console.WriteLine("Cantidad eliminada correctamente");
+                        }
+
                         break;
 
                     case 3:

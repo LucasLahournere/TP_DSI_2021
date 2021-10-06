@@ -41,53 +41,57 @@ namespace Entrega1_Matear
 
         public void agregarProductos(Productos producto, int cantidad)
         {
+            bool bandera = false;
 
             ItemProducto prod = new ItemProducto();
             prod.Producto = producto;
             prod.CantidadProductosSeleccionados = cantidad;
-            productoSeleccionados.Add(prod);
 
-        }
-
-        public int eliminarProductos(Productos producto,int cantidad)
-        {
-            ItemProducto product = new ItemProducto();
-            product.Producto = producto;
-
-            foreach (ItemProducto prod in ProductoSeleccionados)
-            {
-                if (prod.Producto.Id == product.Producto.Id)
-                {
-                    product.CantidadProductosSeleccionados = prod.CantidadProductosSeleccionados;
-                }
-            }
-
-            int contador = -1;
-            int indice = 0;
-            int ban1 = 0;
+            ItemProducto Aux = new ItemProducto();
 
             foreach (ItemProducto p in ProductoSeleccionados)
             {
-                contador++;
-                if (p.Producto.Id == product.Producto.Id && p.CantidadProductosSeleccionados >= product.CantidadProductosSeleccionados)
+                if (p.Producto.Id == prod.Producto.Id)
                 {
-                    product.CantidadProductosSeleccionados = product.CantidadProductosSeleccionados - cantidad;
-                    indice = contador;
-                    ban1 = 1;
+                    bandera = true;
+                    Aux = p;
+                }
 
-                }
-                else if (p.Producto.Id == product.Producto.Id && p.CantidadProductosSeleccionados < product.CantidadProductosSeleccionados)
-                {
-                    Console.WriteLine("Solo selecciono " + p.CantidadProductosSeleccionados + " cantidad del producto, si quiere eliminar vuelva a intentarlo");
-                }
             }
 
-            if (ban1 == 1)
+            if (bandera == true)
             {
-                ProductoSeleccionados.RemoveAt(indice);
+                Aux.CantidadProductosSeleccionados = Aux.CantidadProductosSeleccionados + cantidad;
+
+            }
+            else
+            {
+                productoSeleccionados.Add(prod);
             }
 
-            return ban1;
+        }
+
+        public bool eliminarProductos(ItemProducto producto,int cantidad)
+        {
+            bool ban = false;
+            foreach (ItemProducto i in productoSeleccionados)
+            {
+                if (i == producto)
+                {
+                    if (i.CantidadProductosSeleccionados != 0) // modifico solo la cantidad de productos
+                    {
+                        i.CantidadProductosSeleccionados = i.CantidadProductosSeleccionados - cantidad;
+                    }
+                    else // si la cantidad igual a 0, envio una bandera para eliminar el objeto de la lista
+                    { 
+                        ban = true;
+                    }
+
+                }
+
+            }
+
+            return ban;
         }
 
     }
