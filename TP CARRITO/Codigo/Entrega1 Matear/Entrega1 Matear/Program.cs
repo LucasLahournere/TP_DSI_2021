@@ -38,11 +38,23 @@ namespace Entrega1_Matear
             prod2.Descripcion = "Mate de vidrio";
             ListaProductos.Add(prod2);
 
+            Productos prod3 = new Productos();
+            prod3.Id = 3;
+            prod3.PrecioUnitario = 9f;
+            prod3.StockDisponible = 60;
+            prod3.Descripcion = "Bombilla";
+            ListaProductos.Add(prod3);
+
             //agrego descuentos
             Descuento dto1 = new Descuento();
             dto1.CodigoDto = "MatesDSI";
             dto1.PorcentajeDto = 0.30f;
             Descuentos.Add(dto1);
+
+            Descuento dto2 = new Descuento();
+            dto2.CodigoDto = "DSI";
+            dto2.PorcentajeDto = 0.40f;
+            Descuentos.Add(dto2);
 
 
             Console.WriteLine("CARRITO DE COMPRAS");
