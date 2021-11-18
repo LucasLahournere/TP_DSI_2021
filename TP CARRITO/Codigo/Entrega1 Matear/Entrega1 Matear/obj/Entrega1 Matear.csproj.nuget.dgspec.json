@@ -27,7 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\PruebasUnitariasCarrito\\PruebasUnitariasCarrito.csproj": {
+                "projectPath": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\PruebasUnitariasCarrito\\PruebasUnitariasCarrito.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -62,6 +66,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\PruebasUnitariasCarrito\\PruebasUnitariasCarrito.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\PruebasUnitariasCarrito\\PruebasUnitariasCarrito.csproj",
+        "projectName": "PruebasUnitariasCarrito",
+        "projectPath": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\PruebasUnitariasCarrito\\PruebasUnitariasCarrito.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

@@ -53,9 +53,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\Entrega1 Matear\\Entrega1 Matear.csproj",
-      "projectName": "Entrega1 Matear",
-      "projectPath": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\Entrega1 Matear\\Entrega1 Matear.csproj",
+      "projectUniqueName": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\Entrega1 Matear\\Entrega1Matear.csproj",
+      "projectName": "Entrega1Matear",
+      "projectPath": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\Entrega1 Matear\\Entrega1Matear.csproj",
       "packagesPath": "C:\\Users\\reylu\\.nuget\\packages\\",
       "outputPath": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\Entrega1 Matear\\obj\\",
       "projectStyle": "PackageReference",

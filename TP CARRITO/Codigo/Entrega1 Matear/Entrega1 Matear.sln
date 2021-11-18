@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31229.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entrega1 Matear", "Entrega1 Matear\Entrega1 Matear.csproj", "{616F41E8-0333-4EBA-B030-43E878B45B4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entrega1Matear", "Entrega1 Matear\Entrega1Matear.csproj", "{616F41E8-0333-4EBA-B030-43E878B45B4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCarrito", "TestCarrito\TestCarrito.csproj", "{E674316F-4706-403E-B37D-4DC765CE5426}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{616F41E8-0333-4EBA-B030-43E878B45B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{616F41E8-0333-4EBA-B030-43E878B45B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{616F41E8-0333-4EBA-B030-43E878B45B4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E674316F-4706-403E-B37D-4DC765CE5426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E674316F-4706-403E-B37D-4DC765CE5426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E674316F-4706-403E-B37D-4DC765CE5426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E674316F-4706-403E-B37D-4DC765CE5426}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

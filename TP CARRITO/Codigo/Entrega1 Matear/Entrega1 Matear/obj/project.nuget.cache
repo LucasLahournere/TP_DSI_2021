@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PJ+w4UtnFXDtQUBBXcTDB9j/Dqjowfp+P57mrBQTHkjlnjI5TfrSQZDv8veahab/KXxh9M0PGMKs/b5nEPhS/g==",
+  "dgSpecHash": "Ak5MgtqseA84r4zjeLLYH7hNp6GcUF5PwQ4q2h1JdxZKsv8KbyDyCn4/TJtmXSYtHb0txRMpQuHoJ3b/Ycxg+Q==",
   "success": true,
-  "projectFilePath": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\Entrega1 Matear\\Entrega1 Matear.csproj",
+  "projectFilePath": "E:\\REPOSITORIOS\\REPO TP DSI\\TP_DSI_2021\\TP CARRITO\\Codigo\\Entrega1 Matear\\Entrega1 Matear\\Entrega1Matear.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\reylu\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Entrega1_Matear
 {
-    class CarritoDeComprasDTO
+    public class CarritoDeComprasDTO
     {
         string fechaCompra;
         float montoTotal;

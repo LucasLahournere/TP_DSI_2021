@@ -1,0 +1,1 @@
+[{"Id":1,"Descripcion":"Termo de acero inoxidable con apertura por boton","PrecioUnitario":3059.0,"StockDisponible":17,"FechaInicioOferta":"2021-10-30T00:00:00","FechaFinOferta":"2021-12-20T00:00:00","PrecioOferta":0.10,"PorcDescuentoEntreDosYCinco":0.03,"PorcDescuentoEntreSeisYDiez":0.05,"PorcDescuentoMasDeDiez":0.07,"EstaEnOferta": true}]

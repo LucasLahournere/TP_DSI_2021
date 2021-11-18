@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Entrega1_Matear
 {
-    class Descuento
+    public class Descuento
     {
         string codigoDto;
         float porcentajeDto;

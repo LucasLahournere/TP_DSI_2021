@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace Entrega1_Matear
 {
-    class CarritoDeCompras
+    public class CarritoDeCompras
     {
         int numeroPedido;
         float montoTotal;
@@ -28,10 +29,13 @@ namespace Entrega1_Matear
 
             foreach (ItemProducto prod in ProductoSeleccionados)
             {
+
                 Console.WriteLine(prod.Producto.Descripcion);
-                Console.WriteLine("ID: "+ prod.Producto.Id);
+                Console.WriteLine("ID: " + prod.Producto.Id);
                 Console.WriteLine("Cantidad: " + prod.CantidadProductosSeleccionados);
+
             }
+
 
             Console.WriteLine("TOTAL: $" + montoTotal);
 
@@ -67,6 +71,7 @@ namespace Entrega1_Matear
             else
             {
                 productoSeleccionados.Add(prod);
+
             }
 
         }
@@ -74,15 +79,14 @@ namespace Entrega1_Matear
         public bool eliminarProductos(ItemProducto producto,int cantidad)
         {
             bool ban = false;
+
             foreach (ItemProducto i in productoSeleccionados)
             {
-                if (i == producto)
+                if (i.Producto.Id == producto.Producto.Id)
                 {
-                    if (i.CantidadProductosSeleccionados != 0) // modifico solo la cantidad de productos
-                    {
-                        i.CantidadProductosSeleccionados = i.CantidadProductosSeleccionados - cantidad;
-                    }
-                    else // si la cantidad igual a 0, envio una bandera para eliminar el objeto de la lista
+                    i.CantidadProductosSeleccionados = i.CantidadProductosSeleccionados - cantidad;
+
+                    if (i.CantidadProductosSeleccionados <= 0) 
                     { 
                         ban = true;
                     }
@@ -90,9 +94,66 @@ namespace Entrega1_Matear
                 }
 
             }
+            
+            return (ban);
+        }
+        
+        public void calcularImporteTotal()
+        {
+            montoTotal = 0;
+            float precio = 0;
 
-            return ban;
+            foreach(ItemProducto p in ProductoSeleccionados)
+            {
+
+                if (p.Producto.EstaEnOferta == true && DateTime.Compare(p.Producto.FechaInicioOferta, DateTime.Now) < 0  && DateTime.Compare(p.Producto.FechaFinOferta, DateTime.Now) > 0)
+                {
+                    precio = (p.Producto.PrecioUnitario - (p.Producto.PrecioUnitario * p.Producto.PrecioOferta));
+                }
+                else 
+                {
+                    precio = p.Producto.PrecioUnitario;
+                }
+
+
+
+                if (p.CantidadProductosSeleccionados >= 2 && p.CantidadProductosSeleccionados <= 5)
+                {
+                    precio = precio - (precio * p.Producto.PorcDescuentoEntreDosYCinco);
+
+                }
+                else if (p.CantidadProductosSeleccionados >= 6 && p.CantidadProductosSeleccionados <= 10)
+                {
+                    precio = precio - (precio * p.Producto.PorcDescuentoEntreSeisYDiez);
+
+                }
+                else if (p.CantidadProductosSeleccionados > 10)
+                {
+                    precio = precio - (precio * p.Producto.PorcDescuentoMasDeDiez);
+                }
+
+
+                MontoTotal = (precio  * p.CantidadProductosSeleccionados) + MontoTotal;
+
+            }
+
         }
 
+        public void aplicarDescuento(Descuento descuento)
+        {
+            MontoTotal = MontoTotal - (MontoTotal * descuento.PorcentajeDto);
+        }
+
+        public void generarJson()
+        {
+            CarritoDeComprasDTO carritoDTO = new CarritoDeComprasDTO();
+            carritoDTO.FechaCompra = Convert.ToString(FechaCompra);
+            carritoDTO.MontoTotal = MontoTotal;
+            TextWriter CarroSerializado = new StreamWriter("carrito.txt");
+            CarroSerializado.WriteLine(System.Text.Json.JsonSerializer.Serialize(carritoDTO));
+            CarroSerializado.Close();
+        }
+
+        
     }
 }
